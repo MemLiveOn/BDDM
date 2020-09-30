@@ -41,7 +41,7 @@
     background: var(--background-tertiary);
 }
 
-/*Shows activities tab on hover*/
+/*Shows activities tab on hover (I take personal credit for this one, with a little help from Winston#0441)*/
 .nowPlayingColumn-2sl4cE {
     left: 310px;
     position: relative;
@@ -101,7 +101,7 @@
 }
 /*end of activities tab*/
 
-/*Compact Status Menu (Not my original either, I don't remember who owned it, will give credit in next commit)*/
+/*Compact Status Menu (Credit to Snapperito and Draco)*/
 .status-1fhblQ, .description-2L932D {
     display: none;
 }
