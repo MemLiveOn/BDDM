@@ -1,0 +1,10 @@
+{
+    "name": "Better Discord Dark Mode",
+    "description": "An OLED-esque type theme with extra added features.",
+    "version": "1.0.0",
+    "author": "The Great Beyond#0001",
+    "theme": "custom.css",
+    "consent": "false",
+    "splashTheme": "splash.css",
+    "license": "MIT"
+}

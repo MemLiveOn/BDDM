@@ -1,0 +1,132 @@
+/*Show memberlist on hover (credit to MonstrousDev, I am not a coder, I did not want to rewrite it)*/
+@import "https://monstrousdev.github.io/themes/addons/minimalUserList.css";
+
+.theme-dark,
+.theme-light,
+:root {
+    --background-primary: #141414 !important;
+    --background-secondary: #111111 !important;
+    --background-secondary-alt: #292929 !important;
+    --background-tertiary: #0c0c0c !important;
+    --background-accent: #242424 !important;
+    --background-floating: black !important; 
+    --background-modifier-hover: rgba(255,255,255,0.01) !important;
+    --background-modifier-active: rgba(255,255,255,0.03) !important;
+    --background-modifier-selected: rgba(255,255,255,0.04) !important;
+    --background-modifier-accent: hsla(0,0%,100%,0.06) !important;
+    --channeltextarea-background: var(--background-secondary) !important;
+    --deprecated-card-bg: rgba(0, 0, 0, 0.2) !important;
+    --deprecated-card-editable-bg: rgba(0,0,0,0.1) !important;
+    --deprecated-text-input-border-disabled: var(--background-tertiary) !important;
+    --activity-card-background: var(--background-primary) !important;
+    --channels-default: #9f9f9f !important;
+    --text-muted: #b6b6b6 !important;
+    --text-normal: #fbfbfb !important; 
+    --interactive-normal: #c8c8c8 !important;
+    --interactive-hover: #dcddde !important;
+    --interactive-active: #fff !important;
+    --interactive-muted: #747474 !important;
+    --header-secondary: #c9c9c9 !important;
+    --toast-background: var(--background-primary) !important;
+    --toast-header: var(--background-tertiary) !important;
+    --toast-contents: var(--background-secondary) !important;
+    --toast-box-shadow: rgba(0, 0, 0, .2) !important;
+    --toast-border: var(--background-tertiary) !important;
+    --offline-color: rgb(60, 60, 60) !important;
+}
+.peopleColumn-29fq28, .itemCard-v9viV7{
+    background: var(--background-primary);
+}
+.nowPlayingColumn-2sl4cE{
+    background: var(--background-tertiary);
+}
+
+/*Shows activities tab on hover*/
+.nowPlayingColumn-2sl4cE {
+    left: 310px;
+    position: relative;
+    transition: var(--hover-animation-speed);
+    margin-left: -310px;
+}
+.nowPlayingColumn-2sl4cE:hover {
+    transform: translateX(-310px);
+    transition: var(--hover-animation-speed);
+}
+.nowPlayingColumn-2sl4cE .itemCard-v9viV7 {
+    max-width: 100px;
+    transition: var(--hover-animation-speed);
+}
+.nowPlayingColumn-2sl4cE:hover .itemCard-v9viV7 {
+    max-width: 292px;
+    transition: var(--hover-animation-speed);
+}
+.nowPlayingColumn-2sl4cE .itemCard-v9viV7 div {
+    opacity: 0;
+    transition: var(--hover-animation-speed);
+}
+.nowPlayingColumn-2sl4cE:hover .itemCard-v9viV7 div {
+    opacity: 1;
+    transition: var(--hover-animation-speed);
+}
+.nowPlayingColumn-2sl4cE .header-13Cw0- {
+    transform: translateX(60px);
+    transition: var(--hover-animation-speed);
+}
+.nowPlayingColumn-2sl4cE:hover .header-13Cw0- {
+    transform: translateX(0px);
+    transition: var(--hover-animation-speed);
+}
+.nowPlayingColumn-2sl4cE .header-13Cw0-::after {
+    content: '';
+    width: 31px;
+    height: 4px;
+    left: -67px;
+    top: 5px;
+    background: unset;
+    background-color: var(--channels-default);
+    border-radius: 10px;
+    position: absolute;
+}
+.nowPlayingColumn-2sl4cE:hover .header-13Cw0-::after {
+    content: '';
+    width: 31px;
+    height: 4px;
+    top: 5px;
+    left: -50px;
+    background: unset;
+    background-color: var(--channels-default);
+    border-radius: 10px;
+    position: absolute;
+    transform: translateX(-20px)
+}
+/*end of activities tab*/
+
+/*Compact Status Menu (Not my original either, I don't remember who owned it, will give credit in next commit)*/
+.status-1fhblQ, .description-2L932D {
+    display: none;
+}
+.separator-2I32lJ {
+    display: none;
+}
+.mask-1qbNWk.icon-1IxfJ2 {
+    --status-icon-size: 75%;
+    height: var(--status-icon-size); 
+    width: var(--status-icon-size);
+    margin-left: 33%;
+}
+.animatorTop-2Y7x2r.scale-3iLZhb.didRender-33z1u8 > .menu-3sdvDG.styleFixed-sX-yHV > .scroller-3BxosC.thin-1ybCId.scrollerBase-289Jih {
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto auto auto auto;
+    visibility: visible;
+}
+.item-1tOPte.colorDefault-2K3EoJ:nth-of-type(7) {
+    grid-column: 1/5;
+}
+.animatorTop-2Y7x2r.scale-3iLZhb.didRender-33z1u8 {
+    transition: opacity 0.15s linear 0s;
+}
+.customText-tY5LJn {
+    font-size: 15px;
+}
+/*end of CSM*/
