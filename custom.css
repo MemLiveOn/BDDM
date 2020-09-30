@@ -34,11 +34,14 @@
     --toast-border: var(--background-tertiary) !important;
     --offline-color: rgb(60, 60, 60) !important;
 }
-.peopleColumn-29fq28, .itemCard-v9viV7{
+.peopleColumn-29fq28, .section-2gLsgF{
     background: var(--background-primary);
 }
-.nowPlayingColumn-2sl4cE{
+.itemCard-v9viV7{
     background: var(--background-tertiary);
+}
+.body-3iLsc4, .footer-1fjuF6, .nowPlayingColumn-2sl4cE{
+    background: var(--background-secondary) !important;
 }
 
 /*Shows activities tab on hover (I take personal credit for this one, with a little help from Winston#0441)*/
