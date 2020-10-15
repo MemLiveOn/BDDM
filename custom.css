@@ -35,10 +35,10 @@
     --offline-color: rgb(60, 60, 60) !important;
 }
 .peopleColumn-29fq28, .section-2gLsgF{
-    background: var(--background-primary);
+    background: var(--background-primary) !important;
 }
 .itemCard-v9viV7{
-    background: var(--background-tertiary);
+    background: var(--background-tertiary) !important;
 }
 .body-3iLsc4, .footer-1fjuF6, .nowPlayingColumn-2sl4cE{
     background: var(--background-secondary) !important;
@@ -134,15 +134,24 @@
 }
 /*end of CSM*/
 
-/*Fix popup dialogue (dark)*/
-.container-1CE3eW, .theme-dark .footer-2gL1pp, .theme-dark .root-1gCeng, .theme-dark .modal-yWgWj- {
+/*Misc Color Fixes*/
+.container-1CE3eW, .theme-dark .footer-2gL1pp, .theme-dark .root-1gCeng, .theme-dark .modal-yWgWj-, .theme-dark .selected-1Tbx07 {
     background: var(--background-primary);
 }
 .title-3w8xhj {
     color: var(--text-normal);
 }
-.container-UC8Ug1, .footerButton-ayFTfX {
+.container-UC8Ug1, .footerButton-ayFTfX, .theme-dark .autocomplete-1vrmpx, .container-3auIfb {
     background: var(--background-secondary);
+}
+.connectionHeader-2MDqhu, .accountList-33MS45 {
+    background: var(--background-tertiary) !important;
+}
+.accountBtn-2Nozo3 .accountBtnInner-sj5jLs {
+    background-color: var(--background-primary);
+}
+.container-3auIfb {
+    background-color: var(--background-secondary-alt) !important;
 }
 
 .lookFilled-1Gx00P.colorGrey-2DXtkV {
@@ -153,4 +162,4 @@
     color: #fff !important;
     background: var(--background-modifier-hover) !important;
 }
-/*End of popup dialogue fix*/
+/*End of color fixes*/
