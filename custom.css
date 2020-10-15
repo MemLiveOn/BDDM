@@ -133,3 +133,24 @@
     font-size: 15px;
 }
 /*end of CSM*/
+
+/*Fix popup dialogue (dark)*/
+.container-1CE3eW, .theme-dark .footer-2gL1pp, .theme-dark .root-1gCeng {
+    background: var(--background-primary);
+}
+.title-3w8xhj {
+    color: var(--text-normal);
+}
+.container-UC8Ug1, .footerButton-ayFTfX {
+    background: var(--background-secondary);
+}
+
+.lookFilled-1Gx00P.colorGrey-2DXtkV {
+    color: #fff !important;
+    background: var(--background-secondary) !important;
+}
+.lookFilled-1Gx00P.colorGrey-2DXtkV:hover {
+    color: #fff !important;
+    background: var(--background-modifier-hover) !important;
+}
+/*End of popup dialogue fix*/
